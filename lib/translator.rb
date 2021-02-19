@@ -8,6 +8,7 @@ def get_japanese_emoticon(file,english_emoticon)
   emoticons = load_library(file)
   result = ''
   emoticons.each{|key,value| value[0] == english_emoticon ? result = value[1] : ''  }
+  result
 end
 
 def get_english_meaning(file,japnese_emoticon)
