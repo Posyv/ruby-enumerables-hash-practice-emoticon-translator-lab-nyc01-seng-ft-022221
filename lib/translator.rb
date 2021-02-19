@@ -4,7 +4,7 @@ def load_library(file)
   emoticons = YAML.load_file(file)
   new_emoticons = {}
   emoticons.each do |key,value|
-    
+
   end
   formated_emoticons = e
 end
