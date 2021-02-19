@@ -6,7 +6,7 @@ def load_library(file)
   emoticons.each do |key,value|
     new_emoticons[key] = { english: value[0], japanese: value[1]}
   end
-  formated_emoticons = e
+  new_emoticons
 end
 
 def get_japanese_emoticon(file,english_emoticon)
