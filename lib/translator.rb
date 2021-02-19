@@ -17,4 +17,4 @@ def get_english_meaning(file,japnese_emoticon)
 end
 
 
-get_english_meaning("./lib/emoticons.yml", "(Ｔ▽Ｔ)")
+puts get_english_meaning("./lib/emoticons.yml", "(Ｔ▽Ｔ)")
