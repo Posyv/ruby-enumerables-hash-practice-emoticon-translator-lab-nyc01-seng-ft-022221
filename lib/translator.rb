@@ -24,3 +24,5 @@ puts get_english_meaning("./lib/emoticons.yml", "(Ｔ▽Ｔ)")
 puts get_english_meaning("./lib/emoticons.yml", "☜(⌒▽⌒)☞")
 
 puts get_japanese_emoticon("./lib/emoticons.yml", ":)")
+
+puts get_japanese_emoticon("./lib/emoticons.yml", ":o")
