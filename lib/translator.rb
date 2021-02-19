@@ -11,7 +11,7 @@ end
 
 def get_japanese_emoticon(file,english_emoticon)
   emoticons = load_library(file)
-  result = ''
+  result = 'Sorry, that emoticon was not found'
   emoticons.each{|key,value| value[:english] == english_emoticon ? result = value[:japanese] : ''  }
   result
 end
