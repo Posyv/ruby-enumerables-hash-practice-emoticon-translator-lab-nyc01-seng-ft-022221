@@ -6,11 +6,14 @@ end
 
 def get_japanese_emoticon(file,english_emoticon)
   emoticons = load_library(file)
-  hhh.each{|key,value| value[0] == ":$" ? result = value[1] : ''  }
+  result = ''
+  emoticons.each{|key,value| value[0] == english_emoticon ? result = value[1] : ''  }
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(file,japnese_emoticon)
+  emoticons = load_library(file)
+  result = ''
+  emoticons.each{|key,value| value[0] == english_emoticon ? result = value[1] : ''  }
 end
 
 
