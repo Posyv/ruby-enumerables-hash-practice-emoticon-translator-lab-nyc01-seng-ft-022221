@@ -22,13 +22,3 @@ def get_english_meaning(file,japnese_emoticon)
   emoticons.each{|key,value| value[:japanese] == japnese_emoticon ? result = key : ''  }
   result
 end
-
-puts load_library('./lib/emoticons.yml').first
-
-puts get_english_meaning("./lib/emoticons.yml", "(Ｔ▽Ｔ)")
-
-puts get_english_meaning("./lib/emoticons.yml", "☜(⌒▽⌒)☞")
-
-puts get_japanese_emoticon("./lib/emoticons.yml", ":)")
-
-puts get_japanese_emoticon("./lib/emoticons.yml", ":o")
