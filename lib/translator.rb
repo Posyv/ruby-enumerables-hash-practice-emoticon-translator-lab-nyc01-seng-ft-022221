@@ -1,7 +1,11 @@
 # require modules here
 require 'yaml'
 def load_library(file)
-  YAML.load_file(file)
+  emoticons = YAML.load_file(file)
+  emoticons.each do |key,value|
+    
+  end
+  formated_emoticons = e
 end
 
 def get_japanese_emoticon(file,english_emoticon)
