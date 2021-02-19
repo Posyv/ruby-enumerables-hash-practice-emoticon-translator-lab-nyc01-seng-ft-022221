@@ -17,6 +17,4 @@ def get_english_meaning(file,japnese_emoticon)
 end
 
 
-puts load_library.keys
-
-puts load_library.values
+get_english_meaning("./lib/emoticons.yml", "(Ｔ▽Ｔ)")
