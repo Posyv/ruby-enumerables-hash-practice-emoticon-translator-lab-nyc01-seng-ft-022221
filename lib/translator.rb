@@ -5,7 +5,7 @@ def load_library(file)
 end
 
 def get_japanese_emoticon(file,english_emoticon)
-  emoticons = load_library()
+  emoticons = load_library(file)
   hhh.each{|key,value| value[0] == ":$" ? result = value[1] : ''  }
 end
 
