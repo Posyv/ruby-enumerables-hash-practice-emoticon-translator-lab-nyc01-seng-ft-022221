@@ -23,7 +23,7 @@ def get_english_meaning(file,japnese_emoticon)
   result
 end
 
-puts load_library('./lib/emoticons.yml')
+puts load_library('./lib/emoticons.yml').first
 
 puts get_english_meaning("./lib/emoticons.yml", "(Ｔ▽Ｔ)")
 
