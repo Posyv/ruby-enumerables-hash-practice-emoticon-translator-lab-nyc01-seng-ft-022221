@@ -2,11 +2,10 @@
 require 'yaml'
 def load_library
   emoticons = YAML.load_file('emoticons.yml')
-  emoticons
 end
 
 def get_japanese_emoticon
-  # code goes here
+  hhh.each{|key,value| value[0] == ":$" ? result = value[1] : ''  }
 end
 
 def get_english_meaning
