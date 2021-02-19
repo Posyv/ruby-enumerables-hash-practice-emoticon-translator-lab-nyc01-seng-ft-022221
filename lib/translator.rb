@@ -4,8 +4,8 @@ def load_library(file)
   YAML.load_file(file)
 end
 
-def get_japanese_emoticon(english_emoticon)
-  emoticons =
+def get_japanese_emoticon(file,english_emoticon)
+  emoticons = load_library()
   hhh.each{|key,value| value[0] == ":$" ? result = value[1] : ''  }
 end
 
